@@ -5,6 +5,7 @@ import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House,
 import './global.css';
 
 import twitterLogo from './assets/logo-twitter.svg'
+import { Tweet } from './components/Tweet';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -66,6 +67,11 @@ createRoot(document.getElementById('root')!).render(
           </form>
 
           <div className="separator"></div>
+
+          <Tweet />
+          <Tweet />
+          <Tweet />
+          <Tweet />
 
         </main>
       </div>
