@@ -6,6 +6,7 @@ import './global.css';
 import { Tweet } from './components/Tweet';
 import { Sidebar } from './components/Sidebar';
 import { Header } from './components/Header';
+import { Separator } from './components/Separator';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -13,9 +14,9 @@ createRoot(document.getElementById('root')!).render(
       <Sidebar />
 
       <div className='content'>
-        <main className='timeline'>  
+        <main className='timeline'>
 
-          <Header title='Home' />        
+          <Header title='Home' />
 
           <form className='new-tweet-form'>
             <label htmlFor="tweet">
@@ -26,7 +27,7 @@ createRoot(document.getElementById('root')!).render(
             <button type='submit'>Tweet</button>
           </form>
 
-          <div className="separator"></div>
+          <Separator />
 
           <Tweet />
           <Tweet />
