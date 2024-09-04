@@ -3,22 +3,25 @@ import { Timeline } from "./pages/Timeline";
 import { Status } from "./pages/Status";
 import { Default } from "./layouts/Default";
 
-export const router = createBrowserRouter([
-  /*,*/
-
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Default />,
+      children: [
+        {
+          path: '/',
+          element: <Timeline />
+        },
+        {
+          path: '/status',
+          element: <Status />
+        }
+      ]
+    }
+  ],
   {
-    path: "/",
-    element: <Default />,
-    children: [
-      {
-        path: '/',
-        element: <Timeline />
-      },
-
-      {
-        path: '/status',
-        element: <Status />
-      }
-    ]
+    basename: '/ui-twitter-react',  
   }
-])
+);
+

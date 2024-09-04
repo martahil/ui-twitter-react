@@ -36,7 +36,7 @@ export function Timeline() {
 
       <form onSubmit={createNewTweet} className='new-tweet-form'>
         <label htmlFor="tweet">
-          <img src="..\src\assets\profile-img.jpg" alt='Marta Hil' />
+          <img src="https://avatars.githubusercontent.com/u/74906513?s=40&amp;v=4" alt='Marta Hil' />
           <textarea 
           id="tweet" 
           placeholder="What's hapenning?" 
