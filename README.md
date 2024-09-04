@@ -1,6 +1,8 @@
 # Twitter UI
 ## React + TypeScript + Vite
 
+![Screenshot](./src/assets/screenshot-home.png)
+
 ## About
 
 This project is a clone of the Twitter user interface (UI) using React, focusing on covering the fundamentals of this technology, such as componentization, props, state, forms, etc.
@@ -23,8 +25,6 @@ Key Topics Explored in this React Application:
 - The render lifecycle: when components render and how the reconciliation algorithm work
 - Handling user events
 - Application responsiveness
-
-![Screenshot](./src/assets/screenshot-home.png)
 
 ## Setting Up React with Vite and Fast Refresh
 
