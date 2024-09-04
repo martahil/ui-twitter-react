@@ -26,6 +26,10 @@ Key Topics Explored in this React Application:
 - Handling user events
 - Application responsiveness
 
+## Project Preview
+You can check out the project in action here:
+[martahil.github.io/ui-twitter-react](https://martahil.github.io/ui-twitter-react/)
+
 ## Setting Up React with Vite and Fast Refresh
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
