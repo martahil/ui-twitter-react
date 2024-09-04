@@ -1,4 +1,32 @@
-# React + TypeScript + Vite
+# Twitter UI
+## React + TypeScript + Vite
+
+## About
+
+This project is a clone of the Twitter user interface (UI) using React, focusing on covering the fundamentals of this technology, such as componentization, props, state, forms, etc.
+It was developed after participating in a Masterclass on building the Twitter interface using React, hosted by Rocketseat. 
+For more information, visit [Rocketseat Masterclass - React](https://quiz.rocketseat.com.br/masterclass/react).
+
+Key Topics Explored in this React Application:
+- Fundamentals of React (covering backend, frontend & full-stack approaches)
+- Usage of Node.js
+- Application built with React, covering Compilers & Bundlers
+- Concepts related to Components, covering Props and Children
+- Use of TypeScript and CSS, understanding how to integrate them within React
+- Strategic understanding of when to split components and when to keep logic within the same component
+- Iterations and loops in React (differences between map and forEach)
+- The key prop and performance considerations when iterating in React
+- Routing
+- Creating reusable layouts
+- Handling form data and user input
+- State management and immutability concepts
+- The render lifecycle: when components render and how the reconciliation algorithm work
+- Handling user events
+- Application responsiveness
+
+![Screenshot](./src/assets/screenshot-home.png)
+
+## Setting Up React with Vite and Fast Refresh
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -7,7 +35,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 

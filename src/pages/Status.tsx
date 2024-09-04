@@ -41,7 +41,7 @@ export function Status() {
 
       <form onSubmit={createNewAnswer} className='answer-tweet-form'>
         <label htmlFor="tweet">
-          <img src="https://github.com/martahil.png" alt='Marta Hil' />
+          <img src="..\src\assets\profile-img.jpg" alt='Marta Hil' />
           <textarea 
           id="tweet" 
           placeholder="Tweet your answer"
