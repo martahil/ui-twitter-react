@@ -12,7 +12,7 @@ export function Sidebar() {
 
       <nav className='main-navigation'>
         <NavLink to="/">
-          <House weight='fill'/>
+          <House weight='fill' />
           <span>Home</span>
         </NavLink>
         <a href="">
@@ -20,7 +20,7 @@ export function Sidebar() {
           <span>Explore</span>
         </a>
         <a href="">
-        <Bell />
+          <Bell />
           <span>Notifications</span>
         </a>
         <a href="">
@@ -46,10 +46,10 @@ export function Sidebar() {
       </nav>
 
       <button className='new-tweet' type='button'>
-        <Pencil/>
+        <Pencil />
         <span>Tweet</span>
       </button>
     </aside>
-)
+  )
 
 }

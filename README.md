@@ -1,6 +1,8 @@
 # Twitter UI
 ## React + TypeScript + Vite
 
+<br>
+
 ![Screenshot](./src/assets/screenshot-home.png)
 
 ## About

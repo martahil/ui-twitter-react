@@ -8,7 +8,7 @@ export function Default() {
     <div className='layout'>
       <Sidebar />
 
-      <div className='content'>        
+      <div className='content'>
         <Outlet />
       </div>
     </div>

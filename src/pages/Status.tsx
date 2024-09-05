@@ -18,38 +18,38 @@ export function Status() {
 
   function createNewAnswer(event: FormEvent) {
     event.preventDefault()
-    setAnswers([newAnswer, ...answers ]);
+    setAnswers([newAnswer, ...answers]);
     setNewAnswer('')
   }
 
   function handleHotKeySubmit(event: KeyboardEvent) {
-    if(event.key === 'Enter' && (event.ctrlKey || event.metaKey)) { //Ctrl & metaKey for Mac users (Command)
-      setAnswers([newAnswer, ...answers ]);
+    if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) { //Ctrl & metaKey for Mac users (Command)
+      setAnswers([newAnswer, ...answers]);
       setNewAnswer('')
-    } 
+    }
   }
 
   return (
     <main className='status'>
 
-      <Header title='Tweet' />      
+      <Header title='Tweet' />
 
       <Tweet content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium praesentium saepe sapiente? Sit impedit pariatur velit voluptates. Necessitatibus veritatis quos debitis enim. Voluptas optio illo itaque? Atque, cupiditate at. Beatae!
-      "/>    
+      "/>
 
       <Separator />
 
       <form onSubmit={createNewAnswer} className='answer-tweet-form'>
         <label htmlFor="tweet">
           <img src="https://avatars.githubusercontent.com/u/74906513?s=40&amp;v=4" alt='Marta Hil' />
-          <textarea 
-          id="tweet" 
-          placeholder="Tweet your answer"
-          value={newAnswer} 
-          onKeyDown={handleHotKeySubmit}
-          onChange={(event) => {
-            setNewAnswer(event.target.value)
-          }}
+          <textarea
+            id="tweet"
+            placeholder="Tweet your answer"
+            value={newAnswer}
+            onKeyDown={handleHotKeySubmit}
+            onChange={(event) => {
+              setNewAnswer(event.target.value)
+            }}
           />
         </label>
 
@@ -57,11 +57,11 @@ export function Status() {
           <PaperPlaneRight />
           <span>Answer</span>
         </button>
-      </form>      
+      </form>
 
       {answers.map(answer => {
         return <Tweet key={answer} content={answer} />;
-      })} 
+      })}
 
     </main>
   );

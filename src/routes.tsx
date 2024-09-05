@@ -21,7 +21,7 @@ export const router = createBrowserRouter(
     }
   ],
   {
-    basename: '/ui-twitter-react',  
+    basename: '/ui-twitter-react',
   }
 );
 

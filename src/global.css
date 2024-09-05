@@ -13,8 +13,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
-  font: 400 1rem Roboto, sans-serif; /* 1 rem -> 16px */
+body,
+input,
+textarea,
+button {
+  font: 400 1rem Roboto, sans-serif;
+  /* 1 rem -> 16px */
 }
 
 button {
@@ -24,9 +28,3 @@ button {
 a {
   color: inherit;
 }
-
-
-
-
-
-
